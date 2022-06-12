@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forecastr</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <header>
+      <img
+        src="forecastr-logo.png"
+        alt="forecastrLogo"
+        class="forecastr-logo"
+      />
+      <div class="logo-title">
+        <img src="forecastr-title.png" alt="" class="forecastr" />
+      </div>
+    </header>
+
+    <main>
+      <div class="search-bar">
+        <input type="text" placeholder=" search city" class="search-box" />
+        <button class="search-button" type="submit">></button>
+      </div>
+      <div class="weather-info">
+        <h2 id="city-name">Weather in tokyo</h2>
+        <div class="temp-icon">
+          <h3 id="temperature">9.34°C</h3>
+          <img
+            id="icon"
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt=""
+          />
+        </div>
+        <div class="details">
+          <h3 id="weather-description">Broken clouds</h3>
+          <h3 id="feels-like">Feels like : 42.54 °C</h3>
+          <h3 id="humidity">Humidity : 45%</h3>
+          <h3 id="wind-speed">Wind speed : 3.6km/hr</h3>
+          <hr>
+          
+      <div class="sunrise-sunset">
+        <h3 id="sunrise">Sunrise : </h3>
+        <h3 id="sunset">Sunset :</h3>
+      </div>
+        </div>
+      </div>
+
+
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

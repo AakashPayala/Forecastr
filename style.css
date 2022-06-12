@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Architects+Daughter&family=Fredoka+One&family=Handlee&family=Indie+Flower&family=Nunito:wght@200;300;400;500&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&family=Roboto:wght@100;300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins','nunito','Amatic SC', cursive;
+    font-weight: 200;
+    /* font-size: 1rem; */
+
+}
+body{
+    /* border: 3px solid red; */
+    max-width: 800px;
+    max-height: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+    color: white;
+    background-image: url("https://source.unsplash.com/1600x900/?weather,storm,city");
+    background-size:cover;                     
+    background-position: center center; 
+    background-repeat: no-repeat;
+    
+
+
+}
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: rgb(0,0,0,0.5);
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+header{
+    /* border: 3px solid darkgoldenrod; */
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem;
+}
+.logo-title{
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    
+
+}
+.forecastr{
+    /* border: 3px solid slateblue; */
+    width: 230px;
+    /* margin: 0 10%; */
+
+    
+}
+.forecastr-logo{
+/* border: 3px solid red; */
+width: 70px;
+height: 70px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+.navigation ul {
+    /* border: 3px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.navigation ul li {
+    border: 1.3px solid white;
+    margin: 0 1.8rem;
+    list-style: none;
+    padding: 0 0.5rem;
+    border-radius: 3px;
+
+}
+.search-bar{
+    /* border: 3px solid orange; */
+    display: flex;
+
+    margin: 1.5rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.search-box{
+        /* border: 3px solid red; */
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 30px;
+    width: 100%;
+    color: white;
+    background-color: rgba(129, 129, 129, 0.7);
+    transition: all 1s;
+}
+.search-button{
+    width: 50px;
+    color: white;
+    font-weight:200;
+    font-size: 1.5rem;
+    position: relative;
+    border: solid rgba(255, 255, 255, 0.3) 1px;
+    background-color: rgba(129, 129, 129, 0.7);
+    cursor:pointer;
+    border-radius: 30px;
+    transition: all 1s;
+    margin-left: 0.5rem;
+}
+::placeholder { 
+    color: white;
+    opacity: 1; 
+}
+
+
+
+.weather-info{
+    /* border: 3px solid blue; */
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 3rem 0.7rem;
+    padding: 0.5rem 1.5rem ;
+    border-radius: 20px;
+    transition:0.5s;
+
+   
+}
+
+#city-name{
+    /* border: 3px solid greenyellow; */
+    padding-bottom: 2rem;
+}
+#temperature{
+    /* border: 3px solid darkcyan; */
+    padding: 0.3rem 0.7rem;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: rgb(0,0,0,0.5);
+    border-radius: 20px;
+}
+.temp-icon{
+    /* border: 3px solid fuchsia; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+#icon{
+    margin-left: 1rem;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: rgb(0,0,0,0.5);
+    border-radius: 50%;
+}
+.details{
+    /* border: 3px solid skyblue; */
+    padding: 2rem 0;
+}
+hr{
+    padding: 1px 0px;
+    background-color: white;
+    margin-top: 1rem;
+}
+.sunrise-sunset{
+    /* border: 3px solid magenta; */
+    padding-top: 1rem;
+    
+
+
+    
+}
+#sunrise ,#sunset{
+/* border: 3px solid red; */
+padding: 0.3rem 0;
+}
+
+#weather-description, #humidity, #wind-speed,#feels-like{
+/* border: 3px solid red; */
+padding: 0.3rem 0;
+} 
+
